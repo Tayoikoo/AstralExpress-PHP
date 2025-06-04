@@ -14,6 +14,7 @@ use Exception;
 // Routes
 use AstralPHP\sdkserver\account\Account;
 use AstralPHP\sdkserver\dispatch\Dispatch;
+use AstralPHP\sdkserver\mdk\Mdk;
 
 class SdkServer {
     private array $routes = [];
@@ -51,6 +52,7 @@ class SdkServer {
         // Routes
         Account::register($this->routes);
         Dispatch::register($this->routes, $this->config);
+        Mdk::register($this->routes);
     }
 
     private function startHttpServer(): void
