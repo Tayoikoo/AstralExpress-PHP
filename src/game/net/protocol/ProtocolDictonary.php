@@ -105,7 +105,9 @@ class ProtocolDictonary
         "GetFightFestData",
         "DifficultyAdjustmentGetData",
         "GetMail",
-        "GetRechargeGiftInfo"
+        "GetRechargeGiftInfo",
+        "GetPreAvatarGrowthInfo",
+        "GetPreAvatarActivityList"
     ];
     
     private static array $idToNameProtocol = [];
