@@ -1,0 +1,23 @@
+{
+    "http_port": 21041,
+    "game_servers": {
+        "astral_php": {
+            "name": "AstralPHP Normal Server",
+            "title": "AstralPHP Normal Server",
+            "dispatch_url": "http://127.0.0.1:21041/query_gateway/astral_php",
+            "env_type": "2",
+            "gateserver_ip": "127.0.0.1",
+            "gateserver_port": 23301,
+            "gateserver_protocol": "Tcp"
+        }    
+    },
+    "versions": {
+        "OSPRODWin3.3.0": {
+            "asset_bundle_url": "",
+            "ex_resource_url": "",
+            "lua_url": "",
+            "ifixUrl": "",
+            "lua_version": ""
+        }      
+    }    
+}

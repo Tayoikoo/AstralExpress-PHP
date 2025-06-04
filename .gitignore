@@ -1,0 +1,5 @@
+composer.lock
+vendor
+data/StarRail.proto
+data/protos/*
+StarRailData/ExcelOutput/*
